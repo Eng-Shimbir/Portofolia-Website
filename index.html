@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shimbir Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-blue-50 to-white text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="flex justify-between items-center px-8 py-6 shadow-md bg-white sticky top-0 z-10">
+    <h1 class="text-3xl font-bold text-blue-600">Shimbir</h1>
+    <nav class="space-x-6">
+      <a href="#home" class="hover:text-blue-500">Home</a>
+      <a href="#services" class="hover:text-blue-500">Services</a>
+      <a href="#projects" class="hover:text-blue-500">Projects</a>
+      <a href="#about" class="hover:text-blue-500">About</a>
+      <a href="#contact" class="hover:text-blue-500">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="py-20 px-6 bg-white">
+    <div class="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between">
+      <div class="md:w-1/2 text-left">
+        <h2 class="text-5xl font-bold mb-6 text-gray-800">Welcome to My Portfolio</h2>
+        <p class="text-lg text-gray-600 mb-6">I’m Muscab Abdirashiid Shimbir — Developer, Designer & Activist</p>
+        <a href="#projects">
+          <button class="bg-blue-600 text-white px-6 py-3 rounded-xl hover:bg-blue-700 transition">
+            Explore My Work
+          </button>
+        </a>
+      </div>
+      <div class="md:w-1/2 mb-10 md:mb-0 flex justify-center">
+        <img src="image/33.jpg" alt="Shimbir Photo"
+             class="w-80 h-80 object-cover rounded-xl border-4 border-blue-600 shadow-lg"/>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-20 px-6 bg-blue-50">
+    <h3 class="text-4xl font-semibold text-center mb-12">My Services</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <h4 class="text-2xl font-bold mb-2">Web Development</h4>
+        <img src="image/ciida phots.jpg" class="w-16 h-16 mx-auto mb-3" />
+        <p>Modern websites built with HTML, Tailwind, and JavaScript.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <h4 class="text-2xl font-bold mb-2">Graphic Design</h4>
+        <img src="image/sado.jpg" class="w-16 h-16 mx-auto mb-3" />
+        <p>Logos, posters, and social graphics that make an impact.</p>
+      </div>
+      <div class="p-6 bg-white rounded-xl shadow text-center">
+        <h4 class="text-2xl font-bold mb-2">Tech Activism</h4>
+        <img src="image/the Leader.jpg" class="w-16 h-16 mx-auto mb-3" />
+        <p>Empowering Somali youth through coding and digital tools.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6 bg-white">
+    <h3 class="text-4xl font-semibold text-center mb-12">My Projects</h3>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="rounded-xl shadow-lg overflow-hidden">
+                <div class="p-4">
+          <h4 class="font-bold text-xl">Real Estate Website</h4>
+          <p class="text-sm text-gray-600">A real estate listing website built with modern UI.</p>
+          <a href="https://github.com/Eng-Shimbir" target="_blank" class="text-blue-600 font-medium">Visit GitHub →</a>
+        </div>
+      </div>
+      <div class="rounded-xl shadow-lg overflow-hidden">
+      
+        <div class="p-4">
+          <h4 class="font-bold text-xl">GitHub Projects</h4>
+          <p class="text-sm text-gray-600">Explore all my open-source work on GitHub.</p>
+          <a href="https://github.com/Eng-Shimbir" target="_blank" class="text-blue-600 font-medium">Visit GitHub →</a>
+        </div>
+      </div>
+      <div class="rounded-xl shadow-lg overflow-hidden">
+        
+        <div class="p-4">
+          <h4 class="font-bold text-xl">Inspired Portfolio</h4>
+          <p class="text-sm text-gray-600">UI based on <a class="text-blue-600 underline" href="http://127.0.0.1:5500/index.html#projects">Musab's Site</a>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6">
+    <h3 class="text-4xl font-semibold text-center mb-12">About Me</h3>
+    <div class="max-w-3xl mx-auto text-center text-lg text-gray-700">
+      I'm a full-stack developer and computer science student at SIMAD University, passionate about tech, education, and social impact. With experience in building apps, designing brands, and leading youth programs, I aim to inspire change through creativity and code.
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-blue-50">
+    <h3 class="text-4xl font-semibold text-center mb-12">Contact Me</h3>
+    <div class="max-w-xl mx-auto">
+      <form class="space-y-6">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border border-gray-300 rounded-xl" />
+        <input type="email" placeholder="Your Email" class="w-full p-3 border border-gray-300 rounded-xl" />
+        <textarea placeholder="Your Message" class="w-full p-3 border border-gray-300 rounded-xl" rows="5"></textarea>
+        <button class="bg-blue-600 text-white hover:bg-blue-700 px-6 py-2 rounded-xl">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-6 text-gray-500 text-sm">
+    © 2025 Shimbir. All rights reserved. | 
+    <a href="https://github.com/Eng-Shimbir" class="text-blue-500 hover:underline" target="_blank">GitHub</a>
+  </footer>
+
+</body>
+</html>
